@@ -1,8 +1,13 @@
+// app.js was created by Hailun Li for COMP1073 midterm project, a single page application 
+// about a travel report. This file contains JavaScript functions that replace texts on the 
+// page and store the form data and output to the console.
+
 "use strict";
 
 // setup IIFE
 
-
+// paragraphs replacements
+// texts replacement for the paragraph of IntroParagraph
 (function () {
    
     
@@ -22,6 +27,7 @@
     
 })();
 
+// texts replacement for the paragraph of Folegandros
 (function () {
    
     
@@ -40,6 +46,7 @@
     
 })();
 
+// texts replacement for the paragraph of Alonissos
 (function () {
    
     
@@ -61,6 +68,7 @@
     
 })();
 
+// texts replacement for the paragraph of Spetses
 (function () {
    
     
@@ -82,6 +90,7 @@
     
 })();
 
+// texts replacement for the paragraph of Amorgos
 (function () {
    
     
@@ -101,6 +110,7 @@
     
 })();
 
+// texts replacement for the paragraph of Syros
 (function () {
    
     
@@ -121,6 +131,7 @@
     
 })();
 
+// texts replacement for the paragraph of Milos
 (function () {
    
     
@@ -143,6 +154,7 @@
     
 })();
 
+// texts replacement for the paragraph of Hydra
 (function () {
    
     
@@ -164,6 +176,7 @@
     
 })();
 
+// texts replacement for the paragraph of Ithaca
 (function () {
    
     
@@ -184,6 +197,7 @@
     
 })();
 
+// texts replacement for the paragraph of Gavdos
 (function () {
    
     
@@ -205,6 +219,27 @@
     
 })();
 
+// store user input and output to consoles
 
+(function () {
+
+        // declare variables
+        var firstName = document.getElementById("firstName");
+        var lastName = document.getElementById("lastName");
+        var email = document.getElementById("email");
+        
+        var comments = document.getElementById("comments")
+        var contactSubmit = document.getElementById("contactSubmit");
+        contactSubmit.pre 
+        // output values to the console
+        contactSubmit.addEventListener("click", function(event){
+            event.preventDefault();
+            console.log("First Name: " + firstName.value);
+            console.log("Last Name: " + lastName.value);
+            console.log("Email: " + email.value);
+            console.log("Comments: " + comments.value);
+        }); // end of addEventListener function
+    
+})();
 
 
