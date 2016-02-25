@@ -1,6 +1,6 @@
 // app.js was created by Hailun Li for COMP1073 midterm project, a single page application 
 // about a travel report. This file contains JavaScript functions that replace texts on the 
-// page and store the form data and output to the console.
+// index page and store the form data and output them to the console.
 
 "use strict";
 
@@ -223,11 +223,10 @@
 
 (function () {
 
-        // declare variables
+        // store variables
         var firstName = document.getElementById("firstName");
         var lastName = document.getElementById("lastName");
-        var email = document.getElementById("email");
-        
+        var email = document.getElementById("email");     
         var comments = document.getElementById("comments")
         var contactSubmit = document.getElementById("contactSubmit");
         contactSubmit.pre 
